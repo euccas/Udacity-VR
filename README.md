@@ -4,9 +4,7 @@ My projects for Udacity VR Program.
 
 Recommended Unity Version: **5.5.3** (Unity 5.6 might cause various compliation errors when deploying the app to iOS)
 
-Projects:
-
-## Project01: Hello World ##
+## Project 01: Hello World ##
 
 A simple game. But it's fun for a VR starter.
 
