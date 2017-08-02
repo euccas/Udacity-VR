@@ -7,7 +7,7 @@ Three steps:
 2. Implement head rotation
 3. Implement the GVR SDK
 
-## Build VR Camera
+### Build VR Camera
 
 * Create two Camera objects, one for the left eye, the other for the right eye. You can group the two Cameras under one GameObject.
 
@@ -21,7 +21,7 @@ Three steps:
   * For the left eye Camera, set Position X = -0.32
   * For the right eye Camera, set the Position X = 0.32
 
-## Implement Head Rotation
+### Implement Head Rotation
 
 * Create a C# script (eg. HeadRotation.cs)
 * Update Start() function, enable Gyro
@@ -41,7 +41,7 @@ transform.rotation = att;
 * Apply this C# script to the Camera
 Add "Script" component to the Camera group, or to each camera. Select the "HeadRotation" script in the added "Script" component.
 
-## Implement the GVR (Google VR) SDK
+### Implement the GVR (Google VR) SDK
 
 * Add GVRViewerMain prefab in your scence. The prefab is located in GoogleVR > Prefabs
 * Add a normal camera in the location you want to view from **Deactivate** the VR Camera system
@@ -50,4 +50,6 @@ Usage of GVR SDK
 * GVR has some built in tools for making it easy to test your application without having to deploy to your phone.
 * To control the rotation of the head in the editor, use **Alt and move the mouse** to rotate in the XY direction
 * To control the Tilt (which is rotation in the Z axis), use **Ctrl and move the mouse**
+
+## How to light the scene?
 
