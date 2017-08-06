@@ -24,6 +24,6 @@ Record the time I started and finished each project. The time include both study
 
 | Project       | Start Date | Finish Date | Notes            |
 | ------------- |-----------:| -----------:|------------------|
-| project 1: hello world     | 4/9/2017 | 6/18/2017 | paused a few times for travelings
-| project 2: modern apartment | 7/3/2017      |   8/5/2017 |
+| project 1: hello world      | 5/26/2017 | 6/23/2017 |
+| project 2: modern apartment | 7/3/2017  | 8/5/2017  |
 | project 3: maze | 8/8/2017      |     |
