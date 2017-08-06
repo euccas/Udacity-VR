@@ -1,5 +1,7 @@
 # Project 2: Modern Apartment
 
+![project screenshot](https://github.com/euccas/Udacity-VR/blob/master/project2/Screenshots/p2_apartment2.PNG "Project Screenshot")
+
 ## Environment
 
 * Google VR SDK Version: 1.0
