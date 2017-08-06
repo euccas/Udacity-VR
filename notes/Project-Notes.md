@@ -14,14 +14,14 @@ Three steps:
 * Create two Camera objects, one for the left eye, the other for the right eye. You can group the two Cameras under one GameObject.
 
 * Set each Camera's viewport properties
-** For the left eye, set its viewport width (W) to 0.5
-** For the right eye, set its viewport x coordinate to 0.5, and the viewport width (W) to 1
+  * For the left eye, set its viewport width (W) to 0.5
+  * For the right eye, set its viewport x coordinate to 0.5, and the viewport width (W) to 1
 
 * Set each Camera's X position according to cardboard's LSD (Lense Separation Distance) value
-** Measure the LSD of the cardboard. For example, the LSD of your cardboard is 64mm.
-** Divide the LSD by two, you get the distance between the nose to one eye. You need move the two Cameras with this distance.
-** For the left eye Camera, set Position X = -0.32
-** For the right eye Camera, set the Position X = 0.32
+  * Measure the LSD of the cardboard. For example, the LSD of your cardboard is 64mm.
+  * Divide the LSD by two, you get the distance between the nose to one eye. You need move the two Cameras with this distance.
+  * For the left eye Camera, set Position X = -0.32
+  * For the right eye Camera, set the Position X = 0.32
 
 ### Implement Head Rotation
 
@@ -31,7 +31,8 @@ Three steps:
 ```
 Input.gyro.enabled = true;
 ```
-** Update Update() function, get data from Gyro every frame
+
+* Update Update() function, get data from Gyro every frame
 
 ```
 Quaternion att = Input.gyro.attitude;
@@ -55,4 +56,6 @@ Usage of GVR SDK
 ### Create Animation
 
 
+
+## How to light the scene?
 
