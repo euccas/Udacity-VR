@@ -70,3 +70,12 @@ Types of lights:
 - Point light
 
 Reference: [Unity3D light types](https://unity3d.com/learn/tutorials/topics/graphics/light-types?playlist=17102)
+
+### How to keep an object tilted?
+
+To keep the globe tilted, try creating an empty GameObject and setting the globe to be its child. Something like:
+- GlobeParentObject
+  - Globe
+
+Then tilt the parent (around 25 degrees) and rotate the globe along its Y axis in the animation.
+
