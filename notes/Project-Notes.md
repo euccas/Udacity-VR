@@ -2,7 +2,7 @@
 
 ## Project 2 - Modern Apartment
 
-### How to add Cardboard functionality to your scene ?
+### How to add Cardboard functionality to your scene?
 
 Three steps:
 1. Build VR Camera
@@ -21,6 +21,12 @@ Three steps:
   - For the left eye Camera, set Position X = -0.32
   - For the right eye Camera, set the Position X = 0.32
 
+What is LSD?
+
+- LSD is Lens Separation Distance. It represents the distance of two eyes.
+- 1/2 LSD is the distance between nose and one eye.
+- Different devices have different LSD. Typical LSD for Google Cardboards is 64 mm.
+  
 #### 2. Implement Head Rotation
 
 - Create a C# script (eg. HeadRotation.cs)
@@ -51,7 +57,7 @@ Usage of GVR SDK
 - To control the rotation of the head in the editor, use **Alt** and **move the mouse** to rotate in the **XY** direction
 - To control the Tilt (which is rotation in the **Z** axis), use **Ctrl** and **move the mouse**
 
-### How to add Animation to the objects ?
+### How to add Animation to the objects?
 
 1. Select the object, create an "Animation" in the Animation window.
 2. The animation clip is similar to Adobe Flash, it uses keyframes and interpolations.
@@ -70,6 +76,12 @@ Types of lights:
 - Point light
 
 Reference: [Unity3D light types](https://unity3d.com/learn/tutorials/topics/graphics/light-types?playlist=17102)
+
+### What is Light Baking (baked lightmap)?
+
+- Baked lightmaps are precomputed and therefore affect the graphic performance much less than real-time lighting. Baked lightmaps are saved in textures.
+- Lightmap is a texture with lighting information baked directly from the scene to help reduce draw calls and increase performance of one’s game. It usually has shadow, Global Illumination and Ambient occlusion baked onto it to give an amazing depth to the environment without hindering the FPS. Real-time lightning is only set to moving or intractable objects which reflects dynamic shadows. This is a rather standard procedure in games pipeline and has been in use since a long time.
+- Make the baked lights static in Unity: Check the "Static" in the Inspector window.
 
 ### How to keep an object tilted?
 
