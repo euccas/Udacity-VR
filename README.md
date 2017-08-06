@@ -17,3 +17,13 @@ A simple game. But it's fun for a VR starter. Platform: Google Cardboard.
 
 Build an apartment scene with lighting and custom animation. Platform: Google Cardboard.
 
+## Timeline
+
+Record the time I started and finished each project. The time include both studying the contents (videos, reading and other materials) and working on the projects. On average, I spend 4 to 6 hours each week.
+
+
+| Project       | Start Date | Finish Date | Notes            |
+| ------------- |-----------:| -----------:|------------------|
+| project 1: hello world     | 4/9/2017 | 6/18/2017 | paused a few times for travelings
+| project 2: modern apartment | 7/3/2017      |   8/5/2017 |
+| project 3: maze | 8/8/2017      |     |
