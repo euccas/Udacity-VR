@@ -15,7 +15,7 @@ Record the time I started and finished each project. The time include both study
 | ------------- |-----------:| -----------:|------------------|
 | project 1: hello world      | 5/26/2017 | 6/23/2017 |
 | project 2: modern apartment | 7/3/2017  | 8/5/2017  |
-| project 3: maze | 8/8/2017      |     |
+| project 3: maze | 8/18/2017      |     |
 
 ## Project 1: Hello World
 
