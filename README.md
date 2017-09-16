@@ -4,7 +4,7 @@ My projects for Udacity VR Program.
 
 Recommended Unity Version: **5.5.3** (Unity 5.6 might cause various compliation errors when deploying the app to iOS)
 
-Notes of the project development and VR glossary are put in the **notes** directory.
+Notes of the project development and VR glossary are [here on the Wiki](https://github.com/euccas/Udacity-VR/wiki)
 
 ## Timeline
 
